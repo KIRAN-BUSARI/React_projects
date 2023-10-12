@@ -5,12 +5,13 @@ function App() {
   const copyPasswordToClipboard = () => {
     window.navigator.clipboard.writeText(password)
     passwordInputRef.current?.select()
-    toast('Copied.', {
+    toast('Copied To Clipboard.', {
       position: 'top-center',
       duration: '150',
-      style: {
-        color: 'red'
-      }
+      // style: {
+      //   color: 'red'
+      // },
+      className:'text-red-600 font-bold bg-slate-200'
     })
   };
   const [length,setLength] = useState(8)
