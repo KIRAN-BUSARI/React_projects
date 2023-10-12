@@ -38,6 +38,7 @@ function App() {
 
   useEffect(() => {
     generatePassword()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [numberAllowed, length, characterAllowed])
   
 
