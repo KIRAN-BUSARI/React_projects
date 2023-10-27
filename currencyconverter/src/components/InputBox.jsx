@@ -8,7 +8,7 @@ function InputBox({
     currencyOptions = [],
     selectedCurrency = "usd",
     amountDisabled = false,
-    currencyDisabled = false,
+    currencyDisabled = false,   
     className = "",
 }) {
 
